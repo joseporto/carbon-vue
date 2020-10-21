@@ -1,10 +1,10 @@
-# @datapoint/carbon-vue
+# @jporto/carbon-vue
 
 ![logo](./logo.png)
 
 An opinionated Vue implementation of IBM™ [Carbon Design System](http://www.carbondesignsystem.com/) version 10.
 
-See it in action [here](https://datapoint.gitlab.io/carbon-vue/?path=/story/overview--page)
+See it in action [here](https://porto.gitlab.io/carbon-vue/?path=/story/overview--page)
 
 ## Project setup
 
@@ -41,7 +41,7 @@ yarn lint
 Add carbon-vue to your project, as a dependency:
 
 ```bash
-yarn add @datapoint/carbon-vue
+yarn add @jporto/carbon-vue
 ```
 
 ### Using with Vue
@@ -50,7 +50,7 @@ Add the following to your `App.vue` file:
 
 ```javascript
 import Vue from 'vue'
-import CarbonVue from '@datapoint/carbon-vue'
+import CarbonVue from '@jporto/carbon-vue'
 Vue.use(CarbonVue)
 ```
 
@@ -60,7 +60,7 @@ Add a `carbon-vue.js` to `/plugins` folder:
 
 ```javascript
 import Vue from 'vue'
-import CarbonVue from '@datapoint/carbon-vue'
+import CarbonVue from '@jporto/carbon-vue'
 Vue.use(CarbonVue)
 ```
 
